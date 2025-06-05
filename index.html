@@ -9,40 +9,57 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="index.css" />
     <title>WeBarelyWork</title>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li>WeBarelyWork</li>
-          <li><img src="images/pin.png" alt="" /></li>
+          <li class="logo">WeBarelyWork</li>
+          <li>
+            <img src="images/pin.png" class="icon" alt="A location pin icon" />
+          </li>
         </ul>
       </nav>
     </header>
+
     <main>
       <section>
         <h1>The best coworking spaces for lazy devs.</h1>
       </section>
 
-      <section>
-        <img src="images/hygge.jpg" alt="" />
-        <p class="caption">
-          Skiving in Scandinavia? Relax with a latte at the Hygge Lounge.
-        </p>
+      <section class="workspace-item">
+        <img
+          class="workspace-img"
+          src="images/hygge.jpg"
+          alt="A relaxing coworking space in Scandinavia."
+        />
+        <div class="caption">
+          <p>Skiving in Scandinavia? Relax with a latte at the Hygge Lounge.</p>
+        </div>
       </section>
 
-      <section>
-        <img src="images/sky-garden.jpg" alt="" />
-        <p class="caption">
-          Bored in Barcelona? Take a siesta at the Sky Garden.
-        </p>
+      <section class="workspace-item">
+        <img
+          class="workspace-img"
+          src="images/sky-garden.jpg"
+          alt="A relaxing workspace in Barcelona decorated with plants."
+        />
+        <div class="caption">
+          <p>Bored in Barcelona? Take a siesta at the Sky Garden.</p>
+        </div>
       </section>
-      <section>
-        <img src="images/generator.jpg" alt="" />
-        <p class="caption">
-          Relaxing in Rio? Take some downtime at the Generator Hub.
-        </p>
+
+      <section class="workspace-item">
+        <img
+          class="workspace-img"
+          src="images/generator.jpg"
+          alt="A modern coworking space in Rio decorated with comfortable chairs."
+        />
+        <div class="caption">
+          <p>Relaxing in Rio? Take some downtime at the Generator Hub.</p>
+        </div>
       </section>
     </main>
   </body>

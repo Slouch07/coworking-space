@@ -2,3 +2,35 @@ body {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: #282828;
+  color: whitesmoke;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 25px;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon {
+  width: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+
+.caption {
+  margin: 0 25px;
+}
