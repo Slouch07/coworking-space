@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #282828;
 }
 
 header {
@@ -14,6 +16,11 @@ ul {
   padding: 25px;
   align-items: center;
   gap: 10px;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
 }
 
 .logo {
@@ -33,4 +40,27 @@ h1 {
 
 .caption {
   margin: 0 25px;
+}
+
+.workspace-img {
+  width: 100%;
+}
+
+.menu-right {
+  margin-left: auto;
+}
+
+.workspace-item {
+  position: relative;
+}
+
+.banner {
+  display: inline;
+  background-color: lightcoral;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: whitesmoke;
+  font-size: 1.25em;
 }
