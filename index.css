@@ -40,10 +40,14 @@ h1 {
 
 .caption {
   margin: 0 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .workspace-img {
   width: 100%;
+  display: block;
 }
 
 .menu-right {
@@ -63,4 +67,15 @@ h1 {
   left: 0;
   color: whitesmoke;
   font-size: 1.25em;
+}
+
+button {
+  border: none;
+  background-color: lightcoral;
+  color: whitesmoke;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 10px 15px;
+  box-shadow: 2px 2px lightgrey;
+  cursor: pointer;
 }
